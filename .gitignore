@@ -1,1 +1,26 @@
-distchart.a
+
+.gitignore
+script
+*-
+*.bak
+*.tar
+*.TXT
+*.txt
+*.csv
+*.dat
+*.json
+*.a
+*.d
+*.o
+nohup.out
+MAKERESULTS
+d
+f
+h
+j
+s
+v
+#
+# selected
+#
+# ./Examples/DemoDist.sh

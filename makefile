@@ -5,6 +5,8 @@ PRG = /usr/local/bin/$(PROG)
 
 FILES = \
 	$(LIB)(distchart.o)	\
+	$(LIB)(getargs.o)	\
+	$(LIB)(getcfg.o)	\
 	$(LIB)(shslib.o)
 
 .SILENT:
@@ -15,7 +17,7 @@ $(PRG): $(LIB) $(XLIB)
 
 $(LIB): $(FILES)
 
-$(FILES): shslib.h
+$(FILES): distchart.h shslib.h
 
 clean:
 	rm -f $(LIB)
